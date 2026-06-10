@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Delivery System</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>🍔 Delivery System</h1>
+
+        <nav>
+
+            <a href="index.html">Home</a>
+
+            <a href="cadastro-empresa.html">
+                Empresas
+            </a>
+
+            <a href="cadastro-produto.html">
+                Produtos
+            </a>
+
+        </nav>
+
+    </header>
+
+    <div class="container">
+
+        <div class="grid">
+
+            <div id="empresasContainer"></div>
+
+            <div class="carrinho">
+
+                <h2>Carrinho</h2>
+
+                <ul id="listaCarrinho"></ul>
+
+                <hr>
+
+                <p id="quantidade">
+                    Quantidade: 0
+                </p>
+
+                <p id="subtotal">
+                    Subtotal: R$ 0,00
+                </p>
+
+                <p id="frete">
+                    Frete: R$ 0,00
+                </p>
+
+                <h3 id="total">
+                    Total: R$ 0,00
+                </h3>
+
+                <button id="btnFinalizar">
+                    Finalizar Compra
+                </button>
+
+                <div id="recibo"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="js/cliente.js"></script>
+
+</body>
+
+</html>
